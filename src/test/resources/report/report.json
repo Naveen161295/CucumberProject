@@ -1,0 +1,183 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9749741835,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeClass()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Adactin Hotel Booking",
+        "description": "",
+        "id": "verifying-adactin-hotel-booking;adactin-hotel-booking;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 109473,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterClass(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1598255962,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should login by using \"naveen1612\", \"3TGGMW\" and click login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"naveen1612\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"3TGGMW\"",
+                  "offset": 41
+                }
+              ],
+              "location": "StepDefinition.userShouldLoginByUsingAndClickLoginButton(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1857176160,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter the \"Sydney\",\"Hotel Creek\",\"Standard\",\"1 - One\",\"21/09/2021\",\"25/09/2021\",\"2 - Two\",\"1 - One\" and click search button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"21/09/2021\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"25/09/2021\"",
+                  "offset": 79
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 92
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 102
+                }
+              ],
+              "location": "StepDefinition.userShouldEnterTheAndClickSearchButton(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 950897066,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should click the checkbox and Search button",
+            "match": {
+              "location": "StepDefinition.userClickTheCheckboxAndSearchButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1128260541,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should enter some details like \"Naveen\",\"Velusamy\",\"Chennimalai,erode\",\"1234567890123456\",\"VISA\",\"December\",\"2021\",\"123\" abd click Book Now button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Naveen\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"Velusamy\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"Chennimalai,erode\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"1234567890123456\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"VISA\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"December\"",
+                  "offset": 102
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 113
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 120
+                }
+              ],
+              "location": "StepDefinition.user_should_enter_some_details_like_abd_click_Book_Now_button(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13920842882,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should validate the Booking Confirmation",
+            "match": {
+              "location": "StepDefinition.userShouldValidateTheBookingConfirmation()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying Adactin Hotel booking",
+    "description": "",
+    "id": "verifying-adactin-hotel-booking",
+    "keyword": "Feature",
+    "uri": "C:/Users/Sekar/eclipse-workspace/CucumberClass4/src/test/resources/feature/featurefile.feature",
+    "tags": []
+  }
+]
